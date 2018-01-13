@@ -5,7 +5,7 @@
     <version>6.2</version>
     <packageSourceUrl>https://github.com/kimwalisch/primesieveChocolatey</packageSourceUrl>
     <owners>Kim Walisch</owners>
-    <title>primesieve 6.2</title>
+    <title>primesieve</title>
     <authors>Kim Walisch</authors>
     <projectUrl>https://github.com/kimwalisch/primesieve</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/kimwalisch/primesieveChocolatey/master/icons/primesieve-128x128.png</iconUrl>
