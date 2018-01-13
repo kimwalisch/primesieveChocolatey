@@ -17,7 +17,24 @@
     <summary>Fast prime number generator</summary>
     <description>primesieve is a command-line program that generates primes using a highly optimized sieve of Eratosthenes implementation. 
     It counts the primes below 10^10 in just 0.45 seconds on an Intel Core i7-6700 CPU (4 x 3.4GHz). 
-    primesieve can generate primes and prime k-tuplets up to 2^64.</description>
+    primesieve can generate primes and prime k-tuplets up to 2^64.
+
+## Usage examples
+
+```sh
+# Count the primes below 1e10 using all CPU cores
+primesieve 1e10
+
+# Print the primes below 1000000
+primesieve 1000000 --print
+
+# Count the primes within [1e10, 2e10] using 4 threads
+primesieve 1e10 2e10 --threads=4
+
+# Print an option summary
+primesieve --help
+```
+  </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
