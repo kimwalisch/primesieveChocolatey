@@ -11,7 +11,7 @@
     <iconUrl>https://github.com/kimwalisch/primesieve/blob/master/src/gui/icons/win/primesieve.ico</iconUrl>
     <copyright>2018 Kim Walisch</copyright>
     <licenseUrl>https://github.com/kimwalisch/primesieve/blob/master/COPYING</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <bugTrackerUrl>https://github.com/kimwalisch/primesieve/issues</bugTrackerUrl>
     <tags>primesieve primes math</tags>
     <summary>Fast prime number generator</summary>
