@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/kimwalisch/primesieve/releases/download/v3.6/primesieve-3.6-win32-console.zip'
 $url64      = 'https://github.com/kimwalisch/primesieve/releases/download/v6.2/primesieve-6.2-win64-console.zip'
+$url        = 'https://github.com/kimwalisch/primesieve/releases/download/v3.6/primesieve-3.6-win32-console.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -21,4 +21,4 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 }
 
-Install-ChocolateyZipPackage $packageName $url $toolsDir [$url64 -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
+Install-ChocolateyZipPackage $packageName $url64 -checksum64 $checksum64 -checksumType64 $checksumType64 $toolsDir
