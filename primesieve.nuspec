@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>primesieve</id>
+    <version>6.2</version>
+    <packageSourceUrl>https://github.com/kimwalisch/primesieveChocolatey</packageSourceUrl>
+    <owners>Kim Walisch</owners>
+    <title>primesieve (Install)</title>
+    <authors>Kim Walisch</authors>
+    <projectUrl>https://github.com/kimwalisch/primesieve</projectUrl>
+    <iconUrl>https://github.com/kimwalisch/primesieve/blob/master/src/gui/icons/win/primesieve.ico</iconUrl>
+    <copyright>2018 Kim Walisch</copyright>
+    <licenseUrl>https://github.com/kimwalisch/primesieve/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <bugTrackerUrl>https://github.com/kimwalisch/primesieve/issues</bugTrackerUrl>
+    <tags>primesieve primes math</tags>
+    <summary>Fast prime number generator</summary>
+    <description>primesieve is a program that generates primes using a highly optimized sieve of Eratosthenes implementation. 
+    It counts the primes below 10^10 in just 0.45 seconds on an Intel Core i7-6700 CPU (4 x 3.4GHz). 
+    primesieve can generate primes and prime k-tuplets up to 2^64.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
