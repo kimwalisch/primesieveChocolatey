@@ -9,4 +9,5 @@ $packageArgs = @{
     File           = $zipFile
 }
 
+Write-Host "Installing $bits-bit primesieve..."
 Get-ChocolateyUnzip @packageArgs
