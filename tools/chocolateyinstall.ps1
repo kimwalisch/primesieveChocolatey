@@ -1,13 +1,11 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$bits     = Get-OSArchitectureWidth
-$zipFile  = gi $toolsDir\primesieve-*-win$bits-console.zip
 
 $packageArgs = @{
-    PackageName    = $env:ChocolateyPackageName
-    Destination    = $toolsDir
-    File           = $zipFile
+    PackageName = $env:ChocolateyPackageName
+    Destination = $toolsDir
+    File        = gi $toolsDir\primesieve-*-win32-console.zip
+    File64      = gi $toolsDir\primesieve-*-win64-console.zip
 }
 
-Write-Host "Installing $bits-bit primesieve..."
 Get-ChocolateyUnzip @packageArgs
