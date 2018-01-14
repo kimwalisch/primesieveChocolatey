@@ -13,6 +13,7 @@
     <licenseUrl>https://github.com/kimwalisch/primesieve/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <bugTrackerUrl>https://github.com/kimwalisch/primesieve/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/kimwalisch/primesieve/blob/master/ChangeLog</releaseNotes>
     <tags>primesieve primes math</tags>
     <summary>Fast prime number generator</summary>
     <description>primesieve is a command-line program that generates primes using a highly optimized sieve of Eratosthenes implementation. It counts the primes below 10^10 in just 0.45 seconds on an Intel Core i7-6700 CPU (4 x 3.4GHz). primesieve can generate primes and prime k-tuplets up to 2^64.</description>
