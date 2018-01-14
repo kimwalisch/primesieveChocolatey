@@ -9,7 +9,7 @@
     <authors>Kim Walisch</authors>
     <projectUrl>https://github.com/kimwalisch/primesieve</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/kimwalisch/primesieveChocolatey/master/icons/primesieve-128x128.png</iconUrl>
-    <copyright>2018 Kim Walisch</copyright>
+    <copyright>2010-2018 Kim Walisch</copyright>
     <licenseUrl>https://github.com/kimwalisch/primesieve/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <bugTrackerUrl>https://github.com/kimwalisch/primesieve/issues</bugTrackerUrl>
