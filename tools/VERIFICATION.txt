@@ -8,7 +8,7 @@ Package can be verified like this:
 1. Go to
  
    x32: https://github.com/kimwalisch/primesieve/releases/download/v3.6/primesieve-3.6-win32-console.zip
-   x64: https://github.com/kimwalisch/primesieve/releases/download/v6.2/primesieve-6.2-win64-console.zip
+   x64: https://github.com/kimwalisch/primesieve/releases/download/v6.4/primesieve-6.4-win64-console.zip
  
    to download the zip files.
  
@@ -17,7 +17,7 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum32: 4DC10A446919540616A908128BDC9381C8D623B54A17CC873CB6B87176EBC25D
-   checksum64: 366CB96C596073A3211DE6EB2292DA2BE806C4521BD35A652A5BF3430C82641C
+   checksum64: 1BEE2B910C01E345907B1D68674E56AF8E2696777567AF47A0AAC2D766ABCBA2
  
 File 'LICENSE.txt' obtained from:
    https://github.com/kimwalisch/primesieve/blob/master/COPYING

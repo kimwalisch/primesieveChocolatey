@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>primesieve</id>
-    <version>6.2</version>
+    <version>6.4</version>
     <packageSourceUrl>https://github.com/kimwalisch/primesieveChocolatey</packageSourceUrl>
     <owners>Kim Walisch</owners>
     <title>Primesieve</title>
