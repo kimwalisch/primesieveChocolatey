@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/kimwalisch/primesieve/releases/download/v6.4/primesieve-6.4-win64-console.zip
+   x64: https://github.com/kimwalisch/primesieve/releases/download/v7.0/primesieve-7.0-win64-console.zip
  
    to download the zip file.
  
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 1BEE2B910C01E345907B1D68674E56AF8E2696777567AF47A0AAC2D766ABCBA2
+   checksum64: 12571975DFD47E3AB3234AB5F2D0951BB8985BAA6E38265BBF03156F3208C302
 
 File 'LICENSE.txt' obtained from:
    https://github.com/kimwalisch/primesieve/blob/master/COPYING
