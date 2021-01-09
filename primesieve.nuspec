@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>primesieve</id>
-    <version>7.5</version>
+    <version>7.6</version>
     <packageSourceUrl>https://github.com/kimwalisch/primesieveChocolatey</packageSourceUrl>
     <owners>Kim Walisch</owners>
     <title>Primesieve</title>
     <authors>Kim Walisch</authors>
     <projectUrl>https://github.com/kimwalisch/primesieve</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/kimwalisch/primesieveChocolatey/master/icons/primesieve-128x128.png</iconUrl>
-    <copyright>2010-2020 Kim Walisch</copyright>
+    <copyright>2010-2021 Kim Walisch</copyright>
     <licenseUrl>https://github.com/kimwalisch/primesieve/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <bugTrackerUrl>https://github.com/kimwalisch/primesieve/issues</bugTrackerUrl>

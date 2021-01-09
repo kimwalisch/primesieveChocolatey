@@ -1,7 +1,7 @@
 # Release instructions
 
-* Delete old ```tools/primesieve-*.*-win64-console.zip```
-* Copy new ```primesieve-*.*-win64-console.zip``` to ```tools``` dir
+* Delete old ```tools/primesieve-*.*-win-x64.zip```
+* Copy new ```primesieve-*.*-win-x64.zip``` to ```tools``` dir
 * Replace all old version numbers with the new version number
 * Replace old checksum with new checksum in ```tools/VERIFICATION.txt```
 
